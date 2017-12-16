@@ -37,7 +37,7 @@ function gameStart() {
 
 function youWin () {
 
-	alert("You have solved they mystery!")
+	alert("You have solved their mysterious mystery!")
 	wins ++;
 	$("#win").html(wins);
 	gameStart();
@@ -46,7 +46,7 @@ function youWin () {
 
 function youLose (){
 
-	alert("The Crystals have retained their secrets! Hehehehehe")
+	alert("The Rupees' have retained their secrets! Hehehehehe")
 	losses ++;
 	$('#loss').html(losses);
 	gameStart();

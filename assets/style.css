@@ -1,4 +1,23 @@
-img {
-	height: 150px;
-	width: 150px;
+.rupee {
+	height: 100px;
+	width: 100px;
+}
+
+.container {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+
+button {
+	background: white;
+}
+
+body {
+	background: blue;
+
+}
+
+p, h1, {
+	font-family: 'Unica One', cursive;
 }
