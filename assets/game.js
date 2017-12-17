@@ -10,6 +10,9 @@ var mysteryNumber;
 var score;
 var wins = 0;
 var losses = 0;
+var rupeeSound = new Audio('./assets/audio/LTTP_Rupee1.wav');
+var winSound = new Audio('./assets/audio/LTTP_Secret.wav');
+var loseSound = new Audio('./assets/audio/LTTP_Link_Dying.wav');
 
 //Start of game
 
@@ -36,16 +39,18 @@ function gameStart() {
 }
 
 function youWin () {
-
+	winSound.play();
 	alert("You have solved their mysterious mystery!")
 	wins ++;
-	$("#win").html(wins);
+	$('#win').html(wins);
 	gameStart();
+
 
 }
 
 function youLose (){
 
+	loseSound.play();
 	alert("The Rupees' have retained their secrets! Hehehehehe")
 	losses ++;
 	$('#loss').html(losses);
@@ -66,6 +71,10 @@ $('#yellow').on('click', function(){
 		youLose();
 	}
 
+
+
+	rupeeSound.play();
+
 });
 
 $('#red').on('click', function(){
@@ -79,6 +88,8 @@ $('#red').on('click', function(){
 	else if (score > mysteryNumber) {
 		youLose();
 	}
+
+	rupeeSound.play();
 
 });
 
@@ -94,6 +105,8 @@ $('#blue').on('click', function(){
 		youLose();
 	}
 
+	rupeeSound.play();
+
 });
 
 $('#green').on('click', function(){
@@ -107,6 +120,8 @@ $('#green').on('click', function(){
 	else if (score > mysteryNumber) {
 		youLose();
 	}
+
+	rupeeSound.play();
 
 });
 

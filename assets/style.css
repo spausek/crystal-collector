@@ -7,6 +7,7 @@
 	width: 60%;
 	text-align: center;
 	margin: auto;
+	background: black;
 }
 
 button {
@@ -14,10 +15,11 @@ button {
 }
 
 body {
-	background: blue;
+	background: #663399;
 
 }
 
-p, h1, {
+p, h1 {
 	font-family: 'Unica One', cursive;
+	color: yellow;
 }
