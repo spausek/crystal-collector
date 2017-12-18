@@ -1,25 +1,26 @@
 .rupee {
 	height: 100px;
 	width: 100px;
+	margin: 3px;
 }
 
 .container {
-	width: 60%;
+	width: 40%;
 	text-align: center;
 	margin: auto;
 	background: black;
 }
 
 button {
-	background: white;
+	background: #CCC4FF;
 }
 
 body {
-	background: #663399;
+	background: black;
 
 }
 
-p, h1 {
+p, h1, h2 {
 	font-family: 'Unica One', cursive;
 	color: yellow;
 }
