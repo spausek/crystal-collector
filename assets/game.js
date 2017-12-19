@@ -78,7 +78,7 @@ $('#yellow').on('click', function(){
 });
 
 $('#red').on('click', function(){
-	score = score + yellowRupee;
+	score = score + redRupee;
 	$('#user-score').html(score);
 
 	if (score === mysteryNumber) {
@@ -94,7 +94,7 @@ $('#red').on('click', function(){
 });
 
 $('#blue').on('click', function(){
-	score = score + yellowRupee;
+	score = score + blueRupee;
 	$('#user-score').html(score);
 
 	if (score === mysteryNumber) {
@@ -110,7 +110,7 @@ $('#blue').on('click', function(){
 });
 
 $('#green').on('click', function(){
-	score = score + yellowRupee;
+	score = score + greenRupee;
 	$('#user-score').html(score);
 
 	if (score === mysteryNumber) {
